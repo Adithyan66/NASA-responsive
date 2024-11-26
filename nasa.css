@@ -1,0 +1,354 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.navbar {
+    background: #000000;
+    color: aliceblue;
+
+}
+
+h4 {
+    color: white;
+}
+
+.btn {
+    height: 2rem;
+}
+
+.logohead {
+    margin-left: 20%;
+}
+
+.image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%), url(images/image.webp);
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    p {
+        font-size: 2em;
+        line-height: 1em;
+        line-height: 1.2em;
+    }
+
+}
+
+.imageheading {
+    color: white;
+    margin-left: 2%;
+    margin-top: 12%;
+    font-family: "inter", sans-serif;
+}
+
+.information {
+    height: 4em;
+    overflow: hidden;
+    padding: 0;
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+        font-family: "inter", sans-serif;
+    }
+
+}
+
+.arrow {
+    border-radius: 50%;
+    background-color: red;
+    border-width: thin;
+    color: white;
+    font-size: large;
+}
+
+.arrow:hover {
+    background-color: rgb(135, 6, 6);
+}
+
+.musat,
+.nisar,
+.blueflux {
+
+    a {
+        font-family: "dm-mono";
+
+        text-decoration: none;
+        color: white;
+        font-size: 1.3em;
+    }
+}
+
+
+
+@media (max-width:1020px) {
+    .hide {
+        display: none;
+    }
+}
+
+.leftmiddlenews {
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%), url(images/explore.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 20%;
+    padding-left: 2%;
+    color: white;
+}
+
+.middlenews {
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%), url(images/leftrightnews.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 20%;
+    padding-left: 2%;
+    line-height: 0.8rem;
+    color: white;
+}
+
+.rightnews {
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%), url(images/rightbottom.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 20%;
+    padding-left: 2%;
+    line-height: 0.8rem;
+    color: white;
+}
+
+@media (max-width:1014px) {
+
+    .middlenews,
+    .rightnews {
+        margin-top: 2rem;
+        padding: auto;
+    }
+}
+
+.blackimg {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%), url(images/satellite.webp);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+
+.largenewscontent {
+    
+    color: white;
+    margin-top: 25%;
+    p{
+    font-size: 1.5em;
+    line-height: 1em;
+    margin-left: 2em;
+    }
+    h2{
+        font-size: 3em;
+        margin-left: 1em;
+    }
+    a{
+        margin-left: 2em;
+        
+        text-decoration: none;
+        color: white;
+    }
+}
+
+@media (min-width:2300px) {
+
+    largenewscontent{
+        
+       h2{ 
+        margin-left: 3em;
+        max-height: 10rem;
+        padding-top: 2rem;
+        font-size: 13em;
+       }
+    }
+}
+
+.universe{
+    margin: 4em;
+}
+.fouruniverse{
+    color: white;
+
+}
+
+.pic1{
+    width: 27rem;
+    height: 33rem;
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%), url(images/four.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 1em;
+    
+}
+
+
+.pic2{
+    width: 27rem;
+    height: 33rem;
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%), url(images/fourtwo.webp);
+    background-position: center;
+    background-size: cover;
+    margin-left: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.pic3{
+    width: 27rem;
+    height: 33rem;
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%), url(images/fourthree.webp);
+    background-position: center;
+    background-size: cover;
+    margin-left: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+
+
+.pic4{
+    width: 27rem;
+    height: 33rem;
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%), url(images/fourfour.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+
+@media (max-width:1200px){
+    .discovermore{
+        display: none;
+    }
+}
+
+
+@media (max-width:1300px){
+
+    .pic1,.pic2,.pic3,.pic4{
+        margin-top: 3rem;
+       
+    }
+    .pic1,.pic2,.pic3,.pic4{
+        margin-left: 0rem;
+    }
+}
+
+.earth{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%), url(images/earthinformationcenter.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.earth{
+    
+    color: white;
+
+    p{
+    font-size: 1.5em;
+    line-height: 1em;
+
+    }
+    h2{
+        font-size: 5rem;
+
+        margin-top: 4rem;
+    }
+    a{
+
+        font-size: 2rem;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+@media (mix-width:800px){
+    .earth>p{
+        padding: 0%;
+    }
+}
+
+.imageofday{
+    height: 75vh;
+    background-image: url(images/rocket.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contentimageofday{
+   
+    h1{
+        margin-top: 6rem;
+    }
+    h5{
+        margin-top: 3rem;
+    }
+    p{
+        margin-top: 3rem;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.explore{
+    height: 70vh;
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%), url(images/explore.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 10%;
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.footer{
+    color: white;
+    background-color: #000;
+}
+
+.footercontents{
+    margin-left: 4rem;
+}
